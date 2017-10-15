@@ -1,0 +1,166 @@
+<!-- saved from url=(0014)about:internet -->
+<html lang="en" itemscope itemtype="http://schema.org/Book">
+
+<!-- 
+Smart developers always View Source. 
+
+This application was built using Adobe Flex, an open source framework
+for building rich Internet applications that get delivered via the
+Flash Player or to desktops via Adobe AIR. 
+
+Learn more about Flex at http://flex.org 
+// -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta property="og:image" content="content/thumbs/thumb1.jpg" />
+<meta itemprop="image" content="content/thumbs/thumb1.jpg">
+<!--  BEGIN Browser History required section -->
+<link rel="stylesheet" type="text/css" href="../history/history.css" />
+<!--  END Browser History required section -->
+
+<title>Revelations</title>
+<script src="../AC_OETags.js" language="javascript"></script>
+
+<!--  BEGIN Browser History required section -->
+<script src="../history/history.js" language="javascript"></script>
+<!--  END Browser History required section -->
+
+<style type="text/css">
+  body { margin: 0px;
+         overflow:hidden;
+         background-color: ThisisBackgroundColor;
+	 background-image: url(ThisisBackgroundImage);
+         background-repeat:no-repeat;
+         background-position:center;
+       }
+        
+</style>
+
+<script type="text/javascript"> var errorName = null; function isBrowserSupportPlugin() {     var supported = null;     try {         new ActiveXObject("");     }     catch (e) {         errorName = e.name;     }     try {         supported = !!new ActiveXObject("htmlfile");     } catch (e) {         supported =  false;     }     if(errorName != 'ReferenceError' && supported==false){         supported = false;     }else{         supported =true;     }     return supported; } function isMetroIE() {     var matchIE = /MSIE\s([\d.]+)/;     if ((matchIE.test(navigator.userAgent)) && !isBrowserSupportPlugin())         return true;     else         return false; } var iRegex = /android|BlackBerry|Windows Phone|(iP(hone|ad))/i; if (iRegex.test(navigator.userAgent) || isMetroIE()){     var url= "../html5.html?page=17";     if( false &&  window.parent)         window.parent.location=url;         else             window.location =url;             } </script>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 10;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 0;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body scroll="no" onload="setBrowserFocus()">
+<script language="JavaScript" type="text/javascript">
+<!--
+
+function closeMe(){return window.close();}
+
+var gotoPage = function(page){
+	if (navigator.appName.indexOf("Microsoft") != -1) {
+		return window['main'].gotoPage(page);
+	}
+	else {
+		return document['main'].gotoPage(page);
+	}
+}
+
+// Version check for the Flash Player that has the ability to start Player Product Install (6.0r65)
+var hasProductInstall = DetectFlashVer(6, 0, 65);
+
+// Version check based upon the values defined in globals
+var hasRequestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+function getparafromurl() {
+    var url,pos,parastr,para;
+    url = window.location.href;
+    pos = url.indexOf("?")
+    parastr = url.substring(pos+1);
+    return parastr;
+}
+
+function setBrowserFocus(){ document.getElementById('main').focus();}
+
+if ( hasProductInstall && !hasRequestedVersion ) {
+	// DO NOT MODIFY THE FOLLOWING FOUR LINES
+	// Location visited after installation is complete if installation is required
+	var MMPlayerType = (isIE == true) ? "ActiveX" : "PlugIn";
+	var MMredirectURL = window.location;
+    document.title = document.title.slice(0, 47) + " - Flash Player Installation";
+    var MMdoctitle = document.title;
+
+	AC_FL_RunContent(
+		"src", "playerProductInstall",
+		"FlashVars", "MMredirectURL="+MMredirectURL+'&MMplayerType='+MMPlayerType+'&MMdoctitle='+MMdoctitle+"",
+		"width", "100%",
+		"height", "100%",
+		"align", "middle",
+		"id", "main",
+		"quality", "high",
+		"allowFullScreen","true",
+		"FlashVars", getparafromurl(),
+		"bgcolor", "#ffffff",
+		"name", "main",
+		"allowScriptAccess","sameDomain",
+		"type", "application/x-shockwave-flash",
+		"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else if (hasRequestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+			"src", "../main?page=18",
+			"width", "100%",
+			"height", "100%",
+			"align", "middle",
+			"allowFullScreen","true",
+			"id", "main",
+			"FlashVars", getparafromurl(),
+			"quality", "high",
+			"bgcolor", "#ffffff",
+			"name", "main",
+			"allowScriptAccess","sameDomain",
+			"type", "application/x-shockwave-flash",
+			"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+  } else {  // flash is too old or we can't detect the plugin
+    var alternateContent = 'Adobe Flash Player not detected. '
+   	+ 'Redirecting to HTML5 version';
+    document.write(alternateContent);  // insert non-flash content
+
+    var url= "../html5.html?page=17";
+    if( false &&  window.parent)
+       window.parent.location=url;
+    else
+       window.location =url;
+  }
+// -->
+</script>
+<noscript>
+  	<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+			id="main" width="100%" height="100%"
+			codebase="http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab">
+			<param name="movie" value="../main.swf?page=18" />
+			<param name="quality" value="high" />
+			<param name="allowFullScreen" value="true" />
+			<param name="bgcolor" value="#ffffff" />
+			<param name="allowScriptAccess" value="sameDomain" />
+			<embed src="main.swf" quality="high" bgcolor="#ffffff"
+				width="100%" height="100%" name="main" align="middle"
+				play="true"
+				loop="false"
+				allowFullScreen="true"
+				quality="high"
+				allowScriptAccess="sameDomain"
+				type="application/x-shockwave-flash"
+				pluginspage="http://www.adobe.com/go/getflashplayer">
+			</embed>
+	</object>
+</noscript>
+<noscript> Setting12. Every believer should have a plan for spending time alone with God. Your time with God is personal and re ects who you are in relationship with God. However you choose to spend your time with him, try to allow time for praise, prayer, and read- ing of Scripture. Re ections are provided at the end of each session for you to use as part of your daily time with him. These will o er reinforcement of the principles we are learn- ing, and develop or strengthen your habit of time alone with God throughout the week.13. Before you close your group in prayer, allow everyone to answer this question: “How can we pray for you this week?” Write prayer requests on your Prayer and Praise Report and commit to praying for each other throughout the week.Study NotesBlessed: Blessed here means spiritually favored, fortunate, well o .Patmos: A small (four by eight miles), rocky island in the Aegean Sea, about 50 miles southwest of Ephesus, o  the coast of modern day Turkey.Prophecy: Revelation is a book of prophecy that is both prediction (foretelling future events) and proclamation (preaching about who God is and what he will do). Behind the predictions are important principles about God’s character and promises.Seven: Nearly two-thirds of the uses of seven in the New Testament are symbolic uses found in Revelation. The symbolism conveys the message that both judgment and salvation are complete, or at least will be in the  nal consummation. It is used to describe lampstands (Rev. 1:12), stars (1:16), angels (1:20), spirits of God (3:1), seals (5:1), trumpets (8:2), heads of a dragon (12:3), plagues (15:1), etc.19￼￼￼￼ </noscript> 
+ </body>
+</html>
